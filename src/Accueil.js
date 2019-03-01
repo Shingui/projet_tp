@@ -19,7 +19,7 @@ class Accueil extends Component {
       
         <View style={styles.container}>
         <Text style={styles.welcome}>Bienvenue dans notre appli de QR code</Text>
-        <Text style={styles.instructions}> Choisissez votre option</Text>
+        <Text style={styles.instructions}> Choisissez votre option, pour le scan de QR code, actuellement nous ne pouvons scanner qu'un seul code par instance de notre application</Text>
         
         
       </View>
