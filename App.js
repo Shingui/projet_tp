@@ -7,10 +7,10 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import Generateur from './src/screens/Generateur';
-import Accueil from './src/screens/Accueil';
-import LecteurQR from './src/screens/LecteurQR';
-import Navigation from './src/screens/Navigation';
+import Generateur from './src/Generateur';
+import Accueil from './src/Accueil';
+import LecteurQR from './src/LecteurQR';
+import Navigation from './src/Navigation';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
