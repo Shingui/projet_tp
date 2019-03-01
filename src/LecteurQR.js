@@ -25,12 +25,12 @@ class ScanScreen extends Component {
         onRead={this.onSuccess.bind(this)}
         topContent={
           <Text style={styles.centerText}>
-            Go to <Text style={styles.textBold}>wikipedia.org/wiki/QR_code</Text> on your computer and scan the QR code.
+            Scannez votre QR code svp
           </Text>
         }
         bottomContent={
           <TouchableOpacity style={styles.buttonTouchable}>
-            <Text style={styles.buttonText}>OK. Got it!</Text>
+            <Text style={styles.buttonText}></Text>
           </TouchableOpacity>
         }
       />
