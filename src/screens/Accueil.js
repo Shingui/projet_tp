@@ -9,6 +9,7 @@ import {
     Text
     
 } from 'react-native';
+import { RawButton } from 'react-native-gesture-handler';
  
 class Accueil extends Component {
   
@@ -17,10 +18,13 @@ class Accueil extends Component {
     return (
       
         <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
+        <Text style={styles.welcome}>Welcome to hjgjhgjReact Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         
+        
       </View>
+
+      
     );
   };
 }
