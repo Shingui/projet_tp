@@ -1,6 +1,7 @@
-import { createStackNavigator, createAppContainer } from 'react-navigation'
+import { createStackNavigator, createAppContainer, createBottomTabNavigator } from 'react-navigation'
 import Accueil from './Accueil'
 import GenerateurQR from './Generateur'
+import LecteurQR from './LecteurQR'
 
 const TpStackNavigator = createStackNavigator({
   Entree: { 
@@ -8,10 +9,19 @@ const TpStackNavigator = createStackNavigator({
     navigationOptions: {
       title: 'Bienvenue'
     }
-  },
-  GenerateurQR: {
-      screen: GenerateurQR
   }
+  
 })
 
-export default createAppContainer(TpStackNavigator)
+const QRTabNavigator = createBottomTabNavigator({
+  Entree: {
+    screen: Accueil
+  },
+  GenerateurQR: {
+    screen: GenerateurQR
+  },
+  LecteurQR: {
+    screen: LecteurQR
+  }
+})
+export default createAppContainer(QRTabNavigator)

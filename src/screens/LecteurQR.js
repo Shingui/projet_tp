@@ -12,7 +12,7 @@ import {
 
 import QRCodeScanner from 'react-native-qrcode-scanner';
 
-class LecteurQR extends Component {
+class ScanScreen extends Component {
   onSuccess(e) {
     Linking
       .openURL(e.data)
@@ -58,6 +58,6 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('default', () => LecteurQR);
+AppRegistry.registerComponent('default', () => ScanScreen);
 
-module.exports = LecteurQR;
+module.exports = ScanScreen;
