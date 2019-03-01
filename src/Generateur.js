@@ -12,7 +12,7 @@ import {
  
 class HelloWorld extends Component {
   state = {
-    text: 'entrez votre text ici',
+    text: 'entrez votre texte ici',
   };
  
   render() {
